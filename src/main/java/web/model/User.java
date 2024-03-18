@@ -13,7 +13,6 @@ public class User {
 
     @Column(name = "name", nullable = false)
     String name;
-
     @Column(name = "surname", nullable = false)
     String surname;
 
@@ -74,7 +73,7 @@ public class User {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("User{");
+        final StringBuilder sb = new StringBuilder("User{ ");
         sb.append("id=").append(id);
         sb.append(", name='").append(name).append('\'');
         sb.append(", surname='").append(surname).append('\'');
